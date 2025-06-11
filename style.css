@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: flexbox;
 }
 
 .logo {
@@ -275,7 +274,7 @@ body {
   }
 }
 
-/* For tablets and large mobile */
+
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 15px 20px;
@@ -314,12 +313,8 @@ body {
   }
 }
 
-/* For mobile devices */
+
 @media screen and (max-width: 480px) {
-  .navbar-container {
-    flex-direction: column;
-    gap: 15px;
-  }
   
   #hero, #blog, #insparation, #target {
     margin: 30px 15px;
